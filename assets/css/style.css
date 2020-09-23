@@ -238,10 +238,6 @@ section {
     display: inline-block;
 }
 
-.contact-info {
-    
-}
-
 .contact-info iframe {
     width: 400px;
     height: 400px;
@@ -261,7 +257,7 @@ section {
     font-size: 32px;
 }
 
-.contact-info p {
+.contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
@@ -271,5 +267,4 @@ section {
 .contact-info a {
     color: #fce138;
 }
-
 /* END CONTACT INFO */
