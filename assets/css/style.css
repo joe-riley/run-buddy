@@ -150,6 +150,7 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
+
 /* END HERO STYLES */
 
 /* WHAT WE/YOU DO  */
@@ -440,6 +441,10 @@ section {
 @media screen and (max-width: 575px) {
     .hero-form button {
         width: 100%;
+    }
+
+    .hero-form-radio-buttons {
+        display: block; 
     }
 
     .section-title {
