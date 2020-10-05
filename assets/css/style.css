@@ -283,6 +283,19 @@ section {
 }
 /* END TRAINERS */
 
+/* SERVICE PLANS */
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+
 /* CONTACT INFO */
 .contact {
     background-color: #024e76;
