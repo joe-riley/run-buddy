@@ -58,16 +58,20 @@
                     <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
                     <p>
                         Have you worked out with a trainer before?
-                        <span class="hero-form-radio-buttons">
+                        <span class="radio-wrapper">
                             <input type="radio" id="hasTrainingExperience-true" name="hasTrainingExperience" value=true>
                             <label for="hasTrainingExperience-true">Yes</label>
+                        </span>
+                        <span class="radio-wrapper">
                             <input type="radio" id="hasTrainingExperience-false" name="hasTrainingExperience" value=false>
                             <label for="hasTrainingExperience-false">No</label><br>
                         </span>
                     </p>
                     <p>
-                        I acknowledge that I am at least 18 years of age.
-                        <input type="checkbox" name="is18OrOlder" id="checkbox" />
+                        <span class="checkbox-wrapper">
+                            <input type="checkbox" name="is18OrOlder" id="checkbox" />
+                            <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+                        </span>
                     </p>
                     <button type="submit">Get running!</button>
                 </form>
